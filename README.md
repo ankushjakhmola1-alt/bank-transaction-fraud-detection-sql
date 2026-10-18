@@ -67,7 +67,21 @@ Requires MySQL 8.0+ (window functions and CTEs). Also tested on MariaDB 10.11.
   (2.5%, about 106K). Every burst account lands at the top; account 8 is highest because it is also Frozen.
 * Large one-off withdrawals and transfers (some above 10,000) are caught by the high-amount and
   rolling-average checks rather than by the burst rules.
+## Results
 
+**Impossible travel (A1)**
+
+![A1 impossible travel](screenshots/a1_impossible_travel.png)
+
+**Risk level distribution (A4a)**
+
+![A4a risk distribution](screenshots/a4a_risk_distribution.png)
+
+**Highest-risk transactions (A4b)**
+
+![A4b top risky transactions](screenshots/a4b_top_risky_transactions.png)
+
+CSV outputs for A1, A3, A4a, A4b, A4c and the full risk-scored table are in the `results/` folder.
 ## Data notes worth knowing
 
 1. **The `locations` latitude/longitude are not real** (Lahore is at -37.89, -34.19; Toronto has latitude
