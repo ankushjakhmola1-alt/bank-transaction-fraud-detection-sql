@@ -1,0 +1,727 @@
+transaction_id,account_id,transaction_date,transaction_type,amount,city,risk_score,risk_level,red_flags
+205,8,2024-06-18 11:32:08,Purchase,4009.72,Islamabad,12,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel, frozen account"
+208,8,2024-06-18 11:38:08,Purchase,2911.66,Karachi,12,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel, frozen account"
+207,8,2024-06-18 11:36:08,Purchase,2597.25,Singapore,12,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel, frozen account"
+566,23,2023-03-30 02:02:01,Purchase,4661.88,Lahore,11,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel, night + large"
+567,23,2023-03-30 02:04:01,Purchase,4034.71,Islamabad,11,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel, night + large"
+206,8,2024-06-18 11:34:08,Purchase,1199.35,Karachi,11,Critical,"rapid-fire, busy day, multi-city day, impossible travel, frozen account"
+204,8,2024-06-18 11:30:08,Purchase,836.09,Dubai,11,Critical,"rapid-fire, busy day, multi-city day, impossible travel, frozen account"
+723,1,2025-01-16 09:05:00,Withdrawal,9500.00,London,10,Critical,"high amount, busy day, multi-city day, impossible travel"
+164,7,2023-10-13 07:35:22,Purchase,4905.50,New York,10,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel"
+18,1,2025-01-16 08:42:53,Purchase,4845.18,London,10,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel"
+19,1,2025-01-16 08:44:53,Purchase,4567.88,Singapore,10,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel"
+20,1,2025-01-16 08:46:53,Purchase,3552.38,New York,10,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel"
+163,7,2023-10-13 07:33:22,Purchase,3185.86,London,10,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel"
+165,7,2023-10-13 07:37:22,Purchase,3077.31,London,10,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel"
+21,1,2025-01-16 08:48:53,Purchase,2577.56,Singapore,10,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel"
+17,1,2025-01-16 08:40:53,Purchase,1553.01,Singapore,10,Critical,"high amount, rapid-fire, busy day, multi-city day, impossible travel"
+724,8,2024-06-18 12:10:00,Withdrawal,7800.00,Karachi,9,Critical,"high amount, busy day, multi-city day, frozen account"
+524,22,2025-09-13 03:00:54,Purchase,3258.68,London,9,Critical,"high amount, rapid-fire, busy day, impossible travel, night + large"
+681,28,2024-10-03 01:40:28,Purchase,3258.19,London,9,Critical,"high amount, rapid-fire, busy day, impossible travel, night + large"
+680,28,2024-10-03 01:38:28,Purchase,1773.16,Toronto,9,Critical,"high amount, rapid-fire, busy day, impossible travel, night + large"
+522,22,2025-09-13 02:56:54,Purchase,1603.54,Karachi,9,Critical,"high amount, rapid-fire, busy day, impossible travel, night + large"
+568,23,2023-03-30 02:06:01,Purchase,818.87,Karachi,9,Critical,"rapid-fire, busy day, multi-city day, impossible travel"
+565,23,2023-03-30 02:00:01,Purchase,694.93,Singapore,9,Critical,"rapid-fire, busy day, multi-city day, impossible travel"
+699,29,2023-09-19 10:58:15,Purchase,4627.86,Karachi,8,Critical,"high amount, rapid-fire, busy day, impossible travel"
+203,8,2024-06-18 11:28:08,Purchase,1931.26,New York,7,Critical,"high amount, busy day, multi-city day, frozen account"
+166,8,2023-07-15 04:56:11,Withdrawal,13943.99,Islamabad,6,High,"high amount, night + large, frozen account"
+180,8,2023-07-25 05:05:51,Withdrawal,6992.41,Islamabad,6,High,"high amount, night + large, frozen account"
+725,28,2024-10-03 02:10:00,Withdrawal,6000.00,London,6,High,"high amount, busy day, night + large"
+523,22,2025-09-13 02:58:54,Purchase,3578.33,Karachi,6,High,"high amount, rapid-fire, busy day, night + large"
+682,28,2024-10-03 01:42:28,Purchase,2826.38,London,6,High,"high amount, rapid-fire, busy day, night + large"
+564,23,2023-03-30 01:58:01,Purchase,2456.02,Dubai,6,High,"high amount, busy day, multi-city day, night + large"
+58,3,2023-04-14 10:33:58,Transfer,7435.75,Islamabad,5,High,"high amount, frozen account"
+56,3,2024-11-27 22:05:16,Withdrawal,6151.11,Toronto,5,High,"high amount, frozen account"
+16,1,2025-01-16 08:38:53,Purchase,3885.76,London,5,High,"high amount, busy day, multi-city day"
+162,7,2023-10-13 07:31:22,Purchase,3065.33,Lahore,5,High,"high amount, busy day, multi-city day"
+700,29,2023-09-19 11:00:15,Purchase,2797.93,Karachi,5,High,"high amount, rapid-fire, busy day"
+701,29,2023-09-19 11:02:15,Purchase,2590.95,Karachi,5,High,"high amount, rapid-fire, busy day"
+600,24,2024-02-05 00:49:15,Withdrawal,10801.82,Toronto,4,High,"high amount, night + large"
+335,14,2024-08-18 02:27:09,Withdrawal,9547.74,Islamabad,4,High,"high amount, night + large"
+431,18,2023-01-01 01:15:43,Transfer,8728.92,Lahore,4,High,"high amount, night + large"
+492,21,2025-04-27 03:09:36,Withdrawal,7874.78,London,4,High,"high amount, night + large"
+409,17,2023-01-26 04:26:25,Withdrawal,7002.37,Lahore,4,High,"high amount, night + large"
+679,28,2024-10-03 01:36:28,Purchase,3865.21,London,4,High,"high amount, busy day, night + large"
+521,22,2025-09-13 02:54:54,Purchase,2592.21,London,4,High,"high amount, busy day, night + large"
+452,19,2024-12-11 12:48:45,Transfer,14947.93,Lahore,3,Medium,high amount
+690,29,2023-03-31 23:53:25,Withdrawal,14316.44,Islamabad,3,Medium,high amount
+73,4,2024-01-29 08:58:31,Withdrawal,14239.31,London,3,Medium,high amount
+669,28,2023-02-17 20:20:07,Withdrawal,13788.98,London,3,Medium,high amount
+562,23,2023-08-29 19:18:14,Deposit,13215.50,Dubai,3,Medium,high amount
+706,30,2024-09-12 22:31:07,Transfer,10978.61,Toronto,3,Medium,high amount
+263,12,2024-07-20 23:19:24,Withdrawal,10529.55,London,3,Medium,high amount
+248,10,2023-08-19 15:05:21,Purchase,9574.80,Karachi,3,Medium,high amount
+666,28,2024-10-04 20:57:52,Deposit,8712.76,Islamabad,3,Medium,high amount
+36,2,2023-09-12 13:23:57,Deposit,7716.58,Islamabad,3,Medium,high amount
+508,22,2023-05-16 12:24:18,Withdrawal,7604.93,New York,3,Medium,high amount
+351,14,2023-12-07 09:24:10,Transfer,7270.93,Lahore,3,Medium,high amount
+226,9,2025-02-04 14:24:11,Deposit,6193.84,Toronto,3,Medium,high amount
+443,18,2024-10-18 12:32:37,Withdrawal,5962.65,Singapore,3,Medium,high amount
+306,13,2025-05-07 22:10:22,Withdrawal,5556.75,Singapore,3,Medium,high amount
+25,2,2023-02-24 15:06:21,Purchase,5065.11,Dubai,3,Medium,high amount
+51,3,2024-10-22 08:12:32,Transfer,1893.63,Dubai,3,Medium,"high amount, frozen account"
+53,3,2026-07-02 22:01:56,Transfer,1863.07,Lahore,3,Medium,"high amount, frozen account"
+698,29,2023-09-19 10:56:15,Purchase,1829.67,Toronto,3,Medium,"high amount, busy day"
+171,8,2026-01-25 21:02:30,Purchase,1734.36,Lahore,3,Medium,"high amount, frozen account"
+183,8,2025-03-01 04:06:17,Transfer,1348.55,New York,3,Medium,"night + large, frozen account"
+193,8,2026-03-21 04:11:57,Deposit,1115.88,Lahore,3,Medium,"night + large, frozen account"
+312,13,2023-05-08 11:14:44,Purchase,253.67,Toronto,3,Medium,impossible travel
+228,9,2026-02-24 22:50:40,Purchase,220.27,Karachi,3,Medium,impossible travel
+370,15,2023-07-04 20:30:36,Purchase,206.64,New York,3,Medium,impossible travel
+345,14,2025-03-05 17:06:01,Transfer,183.99,London,3,Medium,impossible travel
+340,14,2026-07-07 02:47:02,Withdrawal,146.85,Toronto,3,Medium,impossible travel
+498,21,2024-07-20 19:52:46,Purchase,117.19,Toronto,3,Medium,impossible travel
+135,6,2023-08-08 04:55:58,Deposit,64.41,New York,3,Medium,impossible travel
+422,17,2023-09-23 07:00:14,Purchase,64.32,Karachi,3,Medium,impossible travel
+618,25,2023-09-21 05:10:59,Purchase,4727.93,Karachi,2,Medium,"high amount, night + large"
+438,18,2023-11-10 01:50:21,Withdrawal,1995.26,Karachi,2,Medium,"high amount, night + large"
+231,10,2024-11-09 02:49:58,Deposit,1968.28,New York,2,Medium,"high amount, night + large"
+225,9,2023-02-14 05:22:40,Purchase,1851.00,New York,2,Medium,"high amount, night + large"
+355,15,2026-05-25 03:30:22,Purchase,1822.89,Karachi,2,Medium,"high amount, night + large"
+291,13,2026-06-06 01:02:57,Purchase,1783.91,Singapore,2,Medium,"high amount, night + large"
+719,30,2025-01-01 05:46:28,Purchase,1747.03,Toronto,2,Medium,"high amount, night + large"
+334,14,2024-02-02 04:10:23,Purchase,1639.39,Singapore,2,Medium,"high amount, night + large"
+555,23,2023-08-06 04:09:25,Deposit,1638.52,New York,2,Medium,"high amount, night + large"
+401,17,2024-09-05 00:19:57,Withdrawal,1636.34,New York,2,Medium,"high amount, night + large"
+172,8,2023-07-23 22:47:54,Purchase,1027.25,Singapore,2,Medium,frozen account
+168,8,2026-07-09 15:04:53,Transfer,335.93,London,2,Medium,frozen account
+173,8,2025-05-26 07:21:58,Purchase,199.16,London,2,Medium,frozen account
+178,8,2023-09-30 23:21:32,Deposit,198.62,Islamabad,2,Medium,frozen account
+198,8,2025-01-24 21:32:34,Withdrawal,194.51,Dubai,2,Medium,frozen account
+190,8,2023-12-02 18:04:25,Withdrawal,190.84,New York,2,Medium,frozen account
+60,3,2023-02-17 03:16:42,Purchase,189.32,Lahore,2,Medium,frozen account
+201,8,2023-07-10 01:35:54,Purchase,184.65,Singapore,2,Medium,frozen account
+194,8,2025-01-15 13:56:37,Withdrawal,184.44,Toronto,2,Medium,frozen account
+184,8,2023-09-28 14:05:03,Purchase,172.86,Singapore,2,Medium,frozen account
+196,8,2024-01-03 08:07:33,Transfer,161.85,London,2,Medium,frozen account
+191,8,2024-07-04 04:17:53,Purchase,155.43,London,2,Medium,frozen account
+186,8,2026-07-11 18:14:33,Transfer,154.59,Islamabad,2,Medium,frozen account
+188,8,2024-09-27 15:55:42,Deposit,147.34,Karachi,2,Medium,frozen account
+62,3,2023-10-02 09:37:44,Transfer,146.86,Dubai,2,Medium,frozen account
+167,8,2024-05-26 05:19:28,Transfer,143.72,Islamabad,2,Medium,frozen account
+176,8,2023-01-20 00:17:36,Purchase,140.64,Singapore,2,Medium,frozen account
+179,8,2024-12-20 07:45:25,Purchase,127.48,Dubai,2,Medium,frozen account
+182,8,2024-02-25 18:51:02,Deposit,123.35,Dubai,2,Medium,frozen account
+61,3,2024-07-30 18:01:06,Deposit,121.52,Karachi,2,Medium,frozen account
+57,3,2025-01-28 18:44:59,Purchase,114.52,Islamabad,2,Medium,frozen account
+197,8,2024-11-01 03:08:42,Deposit,112.85,Dubai,2,Medium,frozen account
+192,8,2025-10-13 16:34:23,Purchase,104.60,London,2,Medium,frozen account
+202,8,2026-04-04 03:28:47,Withdrawal,103.56,Toronto,2,Medium,frozen account
+54,3,2024-03-07 20:49:51,Deposit,86.23,London,2,Medium,frozen account
+195,8,2024-10-21 09:02:20,Purchase,86.17,Karachi,2,Medium,frozen account
+170,8,2023-05-10 19:27:28,Transfer,82.55,London,2,Medium,frozen account
+64,3,2023-07-18 14:20:29,Deposit,77.77,Dubai,2,Medium,frozen account
+169,8,2025-07-20 17:46:08,Transfer,68.82,Singapore,2,Medium,frozen account
+52,3,2023-09-14 22:45:22,Withdrawal,64.05,Islamabad,2,Medium,frozen account
+55,3,2024-05-16 14:47:07,Withdrawal,63.00,Singapore,2,Medium,frozen account
+59,3,2026-03-29 11:23:08,Deposit,42.02,London,2,Medium,frozen account
+200,8,2025-02-09 11:11:46,Transfer,25.27,Islamabad,2,Medium,frozen account
+175,8,2025-05-29 23:51:55,Deposit,22.78,Dubai,2,Medium,frozen account
+177,8,2024-04-13 13:56:49,Deposit,22.42,Islamabad,2,Medium,frozen account
+181,8,2024-07-21 23:28:11,Transfer,21.43,Lahore,2,Medium,frozen account
+174,8,2025-01-08 09:06:59,Withdrawal,21.07,London,2,Medium,frozen account
+187,8,2023-06-21 11:17:00,Purchase,20.41,Toronto,2,Medium,frozen account
+63,3,2026-02-07 10:30:27,Withdrawal,19.34,Karachi,2,Medium,frozen account
+185,8,2023-02-04 21:23:06,Transfer,18.17,Toronto,2,Medium,frozen account
+189,8,2026-06-07 22:10:00,Purchase,15.73,Islamabad,2,Medium,frozen account
+65,3,2025-10-21 01:27:56,Withdrawal,13.83,Islamabad,2,Medium,frozen account
+199,8,2023-01-14 14:55:44,Purchase,9.66,New York,2,Medium,frozen account
+381,16,2025-10-26 12:38:39,Transfer,4272.40,Singapore,1,Low,high amount
+726,7,2023-10-15 10:00:00,Withdrawal,4000.00,Lahore,1,Low,high amount
+405,17,2024-07-11 22:40:25,Purchase,3977.94,Islamabad,1,Low,high amount
+670,28,2023-04-12 14:36:04,Purchase,3940.27,Karachi,1,Low,high amount
+97,5,2023-08-31 06:29:52,Purchase,3655.51,Lahore,1,Low,high amount
+530,23,2024-04-28 17:39:19,Deposit,2430.18,Islamabad,1,Low,high amount
+659,27,2025-01-13 17:18:08,Purchase,2273.96,Lahore,1,Low,high amount
+138,7,2023-08-22 20:31:45,Withdrawal,1995.08,Singapore,1,Low,high amount
+661,27,2025-06-25 14:08:37,Withdrawal,1929.35,Karachi,1,Low,high amount
+7,1,2026-05-24 17:19:01,Purchase,1923.90,New York,1,Low,high amount
+587,24,2026-06-25 13:24:13,Deposit,1901.66,Dubai,1,Low,high amount
+538,23,2023-02-18 22:33:05,Purchase,1889.31,Karachi,1,Low,high amount
+513,22,2026-03-13 11:05:17,Deposit,1886.02,Lahore,1,Low,high amount
+540,23,2024-06-02 10:43:29,Transfer,1885.13,Toronto,1,Low,high amount
+445,18,2023-04-22 08:50:56,Purchase,1868.11,New York,1,Low,high amount
+467,20,2023-12-07 15:22:52,Purchase,1854.26,Singapore,1,Low,high amount
+264,12,2023-11-04 18:50:02,Transfer,1819.44,Toronto,1,Low,high amount
+251,10,2023-04-11 17:18:07,Transfer,1814.66,London,1,Low,high amount
+424,18,2024-03-03 23:52:30,Deposit,1801.58,New York,1,Low,high amount
+307,13,2023-10-10 15:01:39,Withdrawal,1795.59,New York,1,Low,high amount
+385,16,2024-07-06 08:35:07,Deposit,1741.36,Islamabad,1,Low,high amount
+85,5,2026-03-08 07:01:58,Purchase,1741.06,New York,1,Low,high amount
+209,9,2025-07-14 11:13:30,Withdrawal,1734.47,Lahore,1,Low,high amount
+125,6,2023-11-29 20:31:59,Withdrawal,1702.37,Toronto,1,Low,high amount
+487,20,2026-03-11 22:25:39,Deposit,1697.68,Singapore,1,Low,high amount
+253,11,2024-01-20 16:04:56,Purchase,1683.14,New York,1,Low,high amount
+436,18,2023-04-25 12:10:29,Purchase,1670.86,Dubai,1,Low,high amount
+111,6,2025-11-16 18:06:19,Transfer,1645.07,Dubai,1,Low,high amount
+90,5,2026-01-29 17:08:32,Deposit,1643.59,Karachi,1,Low,high amount
+491,21,2024-01-19 21:40:12,Transfer,1608.22,Lahore,1,Low,high amount
+69,4,2025-12-09 22:54:07,Purchase,1594.29,Lahore,1,Low,high amount
+268,12,2023-07-02 08:05:31,Transfer,1539.58,New York,1,Low,high amount
+494,21,2024-01-25 12:22:59,Withdrawal,1518.39,Karachi,1,Low,high amount
+254,11,2025-11-21 05:47:16,Withdrawal,1477.22,Lahore,1,Low,night + large
+447,18,2026-06-29 05:08:46,Transfer,1402.87,Lahore,1,Low,night + large
+160,7,2025-05-20 03:43:43,Transfer,1376.61,Singapore,1,Low,night + large
+339,14,2026-02-03 03:57:44,Transfer,1291.93,Dubai,1,Low,night + large
+526,23,2023-12-10 01:17:10,Deposit,1275.75,Lahore,1,Low,night + large
+556,23,2024-10-26 04:23:53,Purchase,1236.74,Dubai,1,Low,night + large
+131,6,2023-07-31 00:57:22,Purchase,1197.60,Toronto,1,Low,night + large
+356,15,2025-09-14 04:44:42,Deposit,1170.71,Toronto,1,Low,night + large
+553,23,2023-05-28 01:20:33,Withdrawal,1080.01,Lahore,1,Low,night + large
+593,24,2023-04-07 05:24:03,Withdrawal,1020.67,London,1,Low,night + large
+457,19,2023-05-19 20:17:31,Transfer,1494.99,Lahore,0,Low,
+232,10,2023-01-24 09:39:21,Purchase,1447.72,Lahore,0,Low,
+624,25,2025-01-20 21:27:31,Withdrawal,1412.35,Toronto,0,Low,
+140,7,2026-07-21 11:01:32,Deposit,1385.59,Singapore,0,Low,
+647,26,2024-03-05 12:38:43,Withdrawal,1372.77,New York,0,Low,
+266,12,2024-12-03 08:05:45,Withdrawal,1348.96,London,0,Low,
+294,13,2023-11-01 20:19:43,Deposit,1303.25,Singapore,0,Low,
+629,26,2023-10-21 14:22:28,Transfer,1263.00,Karachi,0,Low,
+609,25,2023-05-17 21:48:17,Purchase,1245.92,Singapore,0,Low,
+108,6,2024-01-21 21:23:35,Purchase,1205.93,London,0,Low,
+98,5,2024-09-03 16:51:26,Transfer,1180.00,Singapore,0,Low,
+101,5,2023-04-01 14:38:45,Withdrawal,1171.57,London,0,Low,
+1,1,2023-06-06 18:35:10,Withdrawal,1155.09,Islamabad,0,Low,
+83,5,2025-07-19 23:20:58,Withdrawal,1089.04,London,0,Low,
+390,16,2024-12-28 11:50:10,Deposit,1077.49,London,0,Low,
+376,16,2023-06-05 20:11:26,Withdrawal,1057.80,Islamabad,0,Low,
+240,10,2026-07-31 10:37:28,Transfer,1052.43,Singapore,0,Low,
+397,17,2024-12-31 11:50:24,Withdrawal,1040.95,Singapore,0,Low,
+158,7,2026-01-06 10:30:36,Purchase,1023.18,Karachi,0,Low,
+398,17,2026-01-09 06:26:44,Transfer,1021.78,London,0,Low,
+440,18,2024-06-21 03:05:51,Deposit,982.08,Dubai,0,Low,
+456,19,2024-09-24 19:04:16,Transfer,974.12,Islamabad,0,Low,
+709,30,2024-09-08 16:52:22,Deposit,959.38,Singapore,0,Low,
+570,24,2024-04-11 03:34:13,Deposit,942.67,Singapore,0,Low,
+95,5,2023-05-22 17:11:15,Transfer,935.96,Toronto,0,Low,
+149,7,2024-01-17 23:19:08,Deposit,912.05,Toronto,0,Low,
+10,1,2024-11-06 03:26:27,Transfer,895.82,Islamabad,0,Low,
+12,1,2026-05-03 03:05:04,Deposit,878.02,Karachi,0,Low,
+416,17,2024-01-31 00:46:38,Transfer,844.70,Singapore,0,Low,
+257,11,2023-12-30 17:16:44,Transfer,829.57,Karachi,0,Low,
+224,9,2026-06-11 07:20:06,Purchase,813.37,New York,0,Low,
+429,18,2024-10-07 20:01:40,Withdrawal,784.38,New York,0,Low,
+318,14,2023-11-14 01:27:15,Deposit,780.73,London,0,Low,
+637,26,2023-12-03 17:53:39,Deposit,762.43,Singapore,0,Low,
+66,4,2025-03-15 22:26:45,Transfer,738.62,Singapore,0,Low,
+611,25,2023-10-05 13:00:43,Transfer,690.81,Lahore,0,Low,
+317,14,2023-03-25 15:36:05,Deposit,675.63,New York,0,Low,
+635,26,2024-08-24 18:07:40,Purchase,671.00,Lahore,0,Low,
+474,20,2024-02-20 00:07:43,Deposit,655.60,Lahore,0,Low,
+255,11,2024-01-30 07:18:29,Transfer,649.08,Dubai,0,Low,
+373,16,2025-02-11 20:30:15,Purchase,637.89,Singapore,0,Low,
+708,30,2025-09-12 23:36:56,Purchase,635.20,Dubai,0,Low,
+403,17,2024-06-22 02:53:02,Transfer,631.21,London,0,Low,
+77,4,2023-08-12 22:24:58,Purchase,630.71,Dubai,0,Low,
+313,14,2024-04-04 23:33:39,Deposit,627.67,Lahore,0,Low,
+260,11,2023-12-21 21:53:12,Deposit,602.79,London,0,Low,
+300,13,2023-08-22 03:32:51,Transfer,599.14,London,0,Low,
+219,9,2024-01-04 00:56:56,Transfer,594.24,Singapore,0,Low,
+543,23,2023-10-22 19:41:01,Purchase,593.10,London,0,Low,
+47,2,2025-11-07 08:09:51,Transfer,561.76,New York,0,Low,
+34,2,2024-08-23 07:20:22,Deposit,559.05,Toronto,0,Low,
+35,2,2024-06-02 01:19:59,Transfer,543.99,New York,0,Low,
+466,20,2025-11-23 22:57:40,Deposit,541.73,London,0,Low,
+359,15,2026-05-10 19:47:47,Purchase,540.24,Karachi,0,Low,
+43,2,2024-05-26 04:07:49,Transfer,534.89,London,0,Low,
+668,28,2024-02-11 03:04:22,Purchase,527.40,Dubai,0,Low,
+2,1,2023-07-30 05:19:54,Deposit,512.30,Islamabad,0,Low,
+500,22,2023-10-17 10:18:48,Purchase,508.29,Singapore,0,Low,
+573,24,2023-08-16 16:56:58,Withdrawal,508.16,Islamabad,0,Low,
+82,4,2024-08-15 01:51:50,Purchase,492.35,Islamabad,0,Low,
+88,5,2023-05-08 04:18:15,Purchase,487.49,London,0,Low,
+488,20,2023-03-14 23:30:26,Deposit,479.70,New York,0,Low,
+24,2,2024-07-12 16:21:33,Transfer,465.23,Singapore,0,Low,
+331,14,2026-01-22 10:44:23,Purchase,459.34,New York,0,Low,
+721,30,2023-11-06 18:45:52,Purchase,387.46,Singapore,0,Low,
+394,17,2023-06-13 07:40:00,Purchase,385.42,Lahore,0,Low,
+23,2,2025-09-11 13:30:55,Withdrawal,384.66,Karachi,0,Low,
+450,18,2025-02-18 18:30:55,Withdrawal,379.29,Karachi,0,Low,
+414,17,2023-07-03 09:03:20,Purchase,364.52,Lahore,0,Low,
+511,22,2025-10-09 23:29:00,Withdrawal,362.96,Lahore,0,Low,
+128,6,2024-01-16 21:19:51,Purchase,354.25,Karachi,0,Low,
+132,6,2024-08-20 15:03:58,Deposit,352.46,Islamabad,0,Low,
+497,21,2024-07-20 19:22:46,Purchase,352.01,New York,0,Low,
+139,7,2025-06-16 10:36:25,Withdrawal,324.49,Singapore,0,Low,
+81,4,2024-08-15 01:21:50,Purchase,321.25,Lahore,0,Low,
+276,12,2025-10-27 21:25:58,Deposit,317.52,New York,0,Low,
+227,9,2026-02-24 22:20:40,Purchase,315.03,New York,0,Low,
+369,15,2023-07-04 20:00:36,Purchase,301.60,London,0,Low,
+554,23,2023-09-25 00:31:22,Purchase,289.92,Islamabad,0,Low,
+28,2,2024-08-13 08:39:07,Purchase,285.95,Karachi,0,Low,
+123,6,2024-03-08 20:38:09,Withdrawal,283.81,Lahore,0,Low,
+619,25,2023-02-08 17:37:52,Deposit,276.53,Lahore,0,Low,
+558,23,2025-06-17 08:52:14,Withdrawal,273.26,Toronto,0,Low,
+421,17,2023-09-23 06:30:14,Purchase,268.42,Lahore,0,Low,
+596,24,2025-12-28 10:58:46,Withdrawal,244.87,New York,0,Low,
+579,24,2025-07-29 20:46:00,Withdrawal,243.94,Toronto,0,Low,
+259,11,2024-07-05 23:43:24,Withdrawal,236.09,Singapore,0,Low,
+354,15,2025-02-13 14:02:03,Withdrawal,229.81,Toronto,0,Low,
+366,15,2023-12-25 23:18:44,Withdrawal,219.28,London,0,Low,
+262,11,2023-01-16 18:37:25,Transfer,199.89,London,0,Low,
+628,26,2024-01-03 00:27:55,Purchase,199.75,Karachi,0,Low,
+517,22,2023-11-12 10:30:10,Deposit,199.50,Islamabad,0,Low,
+246,10,2025-06-10 07:21:05,Purchase,199.47,Karachi,0,Low,
+368,15,2023-11-19 03:09:42,Purchase,199.38,Dubai,0,Low,
+44,2,2025-07-02 07:48:44,Purchase,199.29,Islamabad,0,Low,
+277,12,2023-10-02 12:28:42,Purchase,199.25,Toronto,0,Low,
+478,20,2023-08-12 15:10:51,Deposit,198.78,Islamabad,0,Low,
+33,2,2023-12-25 16:54:59,Purchase,196.26,Singapore,0,Low,
+597,24,2023-01-09 19:53:04,Deposit,195.24,Islamabad,0,Low,
+572,24,2026-07-18 13:03:21,Withdrawal,195.23,London,0,Low,
+220,9,2026-04-11 08:28:28,Withdrawal,194.93,Lahore,0,Low,
+412,17,2023-04-17 07:55:45,Purchase,194.79,London,0,Low,
+451,18,2024-02-12 18:13:41,Transfer,193.52,London,0,Low,
+551,23,2025-12-29 16:21:31,Deposit,193.48,Lahore,0,Low,
+393,17,2026-04-17 18:58:00,Transfer,193.28,Dubai,0,Low,
+364,15,2023-11-26 14:10:00,Purchase,193.09,Toronto,0,Low,
+371,16,2024-04-08 22:04:37,Purchase,192.80,Toronto,0,Low,
+109,6,2024-03-09 06:55:06,Deposit,192.61,Dubai,0,Low,
+124,6,2024-10-06 00:34:12,Transfer,192.49,Karachi,0,Low,
+454,19,2025-02-21 18:57:31,Deposit,192.32,Islamabad,0,Low,
+716,30,2024-08-23 14:12:46,Withdrawal,192.16,Singapore,0,Low,
+120,6,2023-06-11 13:34:56,Purchase,192.06,Karachi,0,Low,
+499,22,2023-08-23 00:33:19,Transfer,191.87,New York,0,Low,
+115,6,2026-01-15 23:22:03,Purchase,191.66,Lahore,0,Low,
+314,14,2025-03-04 15:10:00,Withdrawal,191.56,London,0,Low,
+288,12,2025-01-02 15:56:12,Purchase,191.24,Islamabad,0,Low,
+75,4,2025-03-19 12:33:57,Transfer,191.15,Karachi,0,Low,
+87,5,2025-07-03 09:43:15,Withdrawal,191.04,New York,0,Low,
+211,9,2023-12-23 01:07:53,Purchase,190.66,Singapore,0,Low,
+321,14,2024-08-24 07:57:12,Purchase,190.31,Lahore,0,Low,
+561,23,2025-10-20 22:17:02,Withdrawal,190.31,Dubai,0,Low,
+245,10,2025-07-08 06:17:39,Purchase,190.07,Toronto,0,Low,
+504,22,2025-08-21 08:26:08,Withdrawal,189.75,Toronto,0,Low,
+582,24,2023-04-23 18:44:27,Purchase,189.34,Singapore,0,Low,
+453,19,2025-03-03 01:04:22,Purchase,189.11,Islamabad,0,Low,
+655,27,2023-07-04 14:27:01,Transfer,188.92,Karachi,0,Low,
+718,30,2023-07-26 15:08:43,Transfer,188.90,New York,0,Low,
+104,5,2023-04-07 12:32:23,Withdrawal,188.61,Toronto,0,Low,
+676,28,2024-12-26 22:04:38,Transfer,188.17,Lahore,0,Low,
+464,20,2025-03-18 22:15:51,Purchase,188.13,Lahore,0,Low,
+479,20,2026-03-31 13:06:50,Deposit,186.64,Karachi,0,Low,
+37,2,2025-10-15 13:22:28,Withdrawal,185.24,Toronto,0,Low,
+444,18,2025-06-21 01:38:02,Purchase,185.22,Karachi,0,Low,
+230,10,2026-05-18 11:35:09,Withdrawal,184.60,Singapore,0,Low,
+145,7,2024-08-28 15:08:42,Transfer,184.51,London,0,Low,
+80,4,2025-12-31 01:21:28,Deposit,183.08,Lahore,0,Low,
+472,20,2023-03-31 06:13:18,Withdrawal,182.89,Islamabad,0,Low,
+290,13,2023-08-01 15:08:49,Transfer,182.69,Toronto,0,Low,
+470,20,2024-10-25 23:36:50,Transfer,181.90,Singapore,0,Low,
+214,9,2023-09-21 03:20:55,Withdrawal,181.49,Lahore,0,Low,
+45,2,2025-07-14 06:17:10,Transfer,180.24,New York,0,Low,
+585,24,2024-10-18 12:50:30,Deposit,180.10,New York,0,Low,
+301,13,2023-08-06 01:40:00,Transfer,179.89,Karachi,0,Low,
+496,21,2024-11-13 16:59:54,Withdrawal,178.39,London,0,Low,
+463,20,2024-10-27 16:39:31,Transfer,178.08,Toronto,0,Low,
+249,10,2024-08-08 19:30:06,Purchase,176.63,Singapore,0,Low,
+279,12,2023-03-18 13:39:37,Purchase,175.93,Karachi,0,Low,
+613,25,2026-01-18 11:44:44,Purchase,175.13,New York,0,Low,
+96,5,2025-02-22 16:19:50,Transfer,174.58,Islamabad,0,Low,
+391,16,2026-07-17 05:16:25,Purchase,174.31,Toronto,0,Low,
+710,30,2025-08-23 00:42:52,Purchase,172.66,Toronto,0,Low,
+662,27,2024-09-01 07:39:35,Purchase,172.59,Toronto,0,Low,
+419,17,2023-02-08 22:33:49,Withdrawal,172.08,Toronto,0,Low,
+432,18,2024-03-30 07:49:17,Purchase,171.87,Islamabad,0,Low,
+574,24,2026-03-29 20:07:30,Deposit,171.73,Singapore,0,Low,
+92,5,2023-12-03 11:56:47,Deposit,171.62,Karachi,0,Low,
+638,26,2025-09-01 20:28:15,Transfer,171.60,New York,0,Low,
+477,20,2023-03-17 05:17:34,Purchase,171.50,Karachi,0,Low,
+287,12,2023-08-26 03:27:31,Transfer,170.99,Islamabad,0,Low,
+482,20,2025-05-24 22:10:02,Deposit,170.32,Islamabad,0,Low,
+299,13,2023-04-22 08:06:58,Deposit,169.64,New York,0,Low,
+546,23,2025-06-12 14:42:21,Deposit,169.59,Toronto,0,Low,
+116,6,2025-04-24 05:00:21,Transfer,169.30,Singapore,0,Low,
+645,26,2026-07-25 02:44:32,Withdrawal,168.87,Toronto,0,Low,
+26,2,2024-10-14 03:36:27,Withdrawal,168.64,Singapore,0,Low,
+633,26,2023-07-23 01:55:27,Withdrawal,166.91,New York,0,Low,
+315,14,2026-06-24 16:07:53,Withdrawal,166.85,Dubai,0,Low,
+465,20,2025-07-13 16:38:06,Deposit,166.27,Lahore,0,Low,
+651,27,2025-04-24 09:43:07,Purchase,165.62,Dubai,0,Low,
+425,18,2025-01-25 02:07:21,Withdrawal,165.61,Karachi,0,Low,
+159,7,2024-07-02 19:46:26,Withdrawal,165.54,Singapore,0,Low,
+663,27,2024-07-15 02:54:58,Deposit,165.52,New York,0,Low,
+510,22,2026-02-10 03:33:19,Transfer,165.29,Toronto,0,Low,
+215,9,2026-03-21 15:46:14,Withdrawal,165.23,New York,0,Low,
+435,18,2025-09-26 20:58:47,Purchase,164.81,Toronto,0,Low,
+94,5,2025-03-21 09:15:52,Purchase,164.21,Karachi,0,Low,
+136,6,2024-11-16 15:40:41,Deposit,164.02,Dubai,0,Low,
+400,17,2023-01-01 19:03:12,Deposit,164.00,Singapore,0,Low,
+156,7,2023-10-07 07:06:15,Deposit,163.97,Singapore,0,Low,
+286,12,2023-04-13 03:38:02,Deposit,163.57,New York,0,Low,
+644,26,2025-10-14 18:18:18,Deposit,163.23,Dubai,0,Low,
+349,14,2024-04-16 15:05:44,Deposit,163.18,Islamabad,0,Low,
+147,7,2024-09-06 01:37:36,Withdrawal,162.99,Islamabad,0,Low,
+552,23,2023-08-31 07:42:25,Withdrawal,162.39,Islamabad,0,Low,
+289,13,2025-02-28 17:24:44,Withdrawal,160.98,Lahore,0,Low,
+234,10,2023-07-27 17:27:27,Purchase,158.80,Karachi,0,Low,
+439,18,2025-06-03 10:33:02,Deposit,158.34,Lahore,0,Low,
+493,21,2023-08-18 13:37:29,Withdrawal,158.06,Singapore,0,Low,
+122,6,2025-06-07 23:28:49,Withdrawal,157.95,Lahore,0,Low,
+68,4,2024-06-27 23:52:09,Withdrawal,157.67,Singapore,0,Low,
+622,25,2023-11-25 18:13:39,Withdrawal,157.26,Lahore,0,Low,
+541,23,2024-06-11 05:53:49,Transfer,157.24,London,0,Low,
+671,28,2025-12-12 15:50:37,Withdrawal,155.81,Dubai,0,Low,
+420,17,2025-12-09 18:06:54,Purchase,154.32,Karachi,0,Low,
+395,17,2025-03-24 19:04:39,Transfer,154.17,Toronto,0,Low,
+683,29,2024-10-08 17:53:12,Purchase,153.92,Singapore,0,Low,
+3,1,2025-08-08 20:31:29,Transfer,153.18,New York,0,Low,
+581,24,2024-08-30 15:30:23,Transfer,151.81,Karachi,0,Low,
+295,13,2023-12-05 02:43:32,Deposit,151.53,Dubai,0,Low,
+672,28,2024-06-29 10:29:03,Withdrawal,150.56,London,0,Low,
+650,27,2024-05-07 05:28:42,Withdrawal,150.55,Karachi,0,Low,
+458,20,2024-09-13 16:07:45,Purchase,150.39,Dubai,0,Low,
+126,6,2023-06-10 18:13:59,Deposit,150.36,New York,0,Low,
+297,13,2023-09-01 18:06:31,Purchase,150.32,Lahore,0,Low,
+411,17,2026-07-12 01:32:09,Transfer,150.22,Dubai,0,Low,
+462,20,2025-04-25 08:06:10,Deposit,149.76,Singapore,0,Low,
+114,6,2025-09-27 23:21:48,Withdrawal,149.22,Singapore,0,Low,
+509,22,2023-12-21 02:50:09,Transfer,149.18,Singapore,0,Low,
+396,17,2024-04-14 09:00:26,Purchase,148.83,Lahore,0,Low,
+675,28,2025-02-24 15:24:41,Deposit,148.54,Dubai,0,Low,
+342,14,2024-04-02 21:28:00,Purchase,147.98,New York,0,Low,
+610,25,2025-02-03 18:39:37,Deposit,147.93,New York,0,Low,
+233,10,2025-03-01 15:57:18,Deposit,147.85,New York,0,Low,
+598,24,2024-11-24 04:05:21,Deposit,147.67,Lahore,0,Low,
+575,24,2024-07-25 00:31:41,Withdrawal,147.35,Dubai,0,Low,
+229,10,2023-09-18 06:28:12,Withdrawal,147.12,Lahore,0,Low,
+278,12,2024-04-12 08:10:02,Transfer,146.80,Karachi,0,Low,
+107,6,2023-07-09 19:30:06,Purchase,146.29,Lahore,0,Low,
+285,12,2025-11-13 02:43:56,Deposit,146.09,London,0,Low,
+646,26,2026-07-03 03:20:53,Deposit,144.95,Singapore,0,Low,
+471,20,2023-06-24 19:04:17,Deposit,142.92,Toronto,0,Low,
+222,9,2026-04-26 01:01:37,Transfer,142.17,Singapore,0,Low,
+329,14,2026-04-14 01:39:25,Purchase,141.67,London,0,Low,
+658,27,2025-12-28 13:38:33,Withdrawal,141.43,London,0,Low,
+357,15,2025-01-28 01:34:53,Transfer,141.04,Toronto,0,Low,
+549,23,2024-01-27 10:52:53,Withdrawal,140.70,Singapore,0,Low,
+305,13,2025-11-07 06:27:06,Deposit,139.90,New York,0,Low,
+293,13,2025-11-29 19:02:44,Deposit,139.21,New York,0,Low,
+442,18,2025-05-30 11:46:30,Withdrawal,138.52,New York,0,Low,
+674,28,2025-01-27 21:13:22,Withdrawal,138.43,Toronto,0,Low,
+343,14,2024-05-04 22:21:22,Deposit,138.41,Islamabad,0,Low,
+534,23,2024-10-08 19:18:21,Transfer,138.16,Toronto,0,Low,
+536,23,2025-11-30 12:17:04,Purchase,137.16,Karachi,0,Low,
+382,16,2023-01-18 00:25:49,Withdrawal,136.45,London,0,Low,
+11,1,2023-06-16 21:13:00,Withdrawal,134.40,Toronto,0,Low,
+449,18,2025-03-06 09:52:41,Withdrawal,134.28,Toronto,0,Low,
+281,12,2024-09-08 15:19:24,Purchase,134.02,Toronto,0,Low,
+642,26,2023-03-18 16:46:52,Purchase,133.26,Singapore,0,Low,
+142,7,2023-08-12 09:02:16,Transfer,133.23,Toronto,0,Low,
+265,12,2023-10-14 00:55:36,Withdrawal,132.80,Lahore,0,Low,
+79,4,2025-09-01 17:23:00,Withdrawal,131.86,Karachi,0,Low,
+697,29,2025-12-15 22:55:17,Transfer,131.21,Singapore,0,Low,
+326,14,2026-01-06 15:50:47,Purchase,131.08,New York,0,Low,
+665,28,2023-04-17 23:21:06,Transfer,130.11,Dubai,0,Low,
+612,25,2024-08-20 19:16:57,Withdrawal,129.59,Karachi,0,Low,
+605,25,2023-01-14 14:54:28,Withdrawal,129.57,Islamabad,0,Low,
+117,6,2023-05-04 22:29:40,Deposit,129.36,Lahore,0,Low,
+298,13,2026-05-22 22:32:22,Transfer,129.32,New York,0,Low,
+127,6,2024-10-30 01:04:43,Deposit,128.65,Toronto,0,Low,
+272,12,2025-09-25 12:06:38,Withdrawal,128.05,Dubai,0,Low,
+328,14,2025-03-05 16:25:29,Purchase,127.89,Lahore,0,Low,
+502,22,2026-05-05 21:34:53,Purchase,127.75,Dubai,0,Low,
+32,2,2024-05-08 23:55:27,Transfer,127.51,New York,0,Low,
+275,12,2023-02-06 00:09:00,Deposit,127.20,Karachi,0,Low,
+308,13,2024-02-16 07:38:07,Transfer,126.71,Islamabad,0,Low,
+423,18,2025-09-30 19:08:40,Purchase,126.67,Karachi,0,Low,
+634,26,2024-09-12 22:38:42,Withdrawal,126.53,Singapore,0,Low,
+714,30,2023-08-28 18:00:52,Withdrawal,126.43,London,0,Low,
+476,20,2026-01-25 10:07:32,Transfer,125.85,Lahore,0,Low,
+336,14,2023-07-24 10:22:53,Withdrawal,125.81,London,0,Low,
+27,2,2025-08-18 16:19:59,Purchase,124.99,Toronto,0,Low,
+722,30,2023-08-05 22:13:48,Withdrawal,123.88,Karachi,0,Low,
+529,23,2023-01-30 04:03:41,Transfer,122.75,Islamabad,0,Low,
+601,24,2025-10-01 11:34:09,Deposit,122.62,Islamabad,0,Low,
+695,29,2024-07-03 20:30:01,Deposit,122.07,Toronto,0,Low,
+15,1,2026-06-19 04:46:16,Deposit,121.46,Islamabad,0,Low,
+475,20,2024-05-02 07:53:46,Withdrawal,119.83,Lahore,0,Low,
+50,2,2026-02-03 23:17:39,Purchase,119.62,Lahore,0,Low,
+152,7,2026-06-05 14:17:31,Purchase,119.47,London,0,Low,
+702,30,2024-12-28 09:16:45,Withdrawal,119.19,Islamabad,0,Low,
+102,5,2026-03-25 11:36:39,Withdrawal,117.61,Islamabad,0,Low,
+154,7,2026-05-06 05:01:10,Withdrawal,117.09,Islamabad,0,Low,
+506,22,2024-12-14 22:00:25,Purchase,117.06,New York,0,Low,
+527,23,2026-03-30 06:09:21,Deposit,116.71,London,0,Low,
+441,18,2025-03-20 23:44:51,Transfer,116.41,Karachi,0,Low,
+643,26,2024-10-10 13:45:10,Transfer,116.22,Dubai,0,Low,
+346,14,2026-03-31 19:49:09,Transfer,116.18,Karachi,0,Low,
+489,21,2025-12-03 10:53:55,Transfer,115.16,New York,0,Low,
+361,15,2026-01-02 15:25:17,Deposit,115.11,Toronto,0,Low,
+595,24,2024-01-13 07:28:10,Withdrawal,114.69,Singapore,0,Low,
+309,13,2023-08-25 12:49:28,Deposit,114.64,London,0,Low,
+387,16,2024-09-06 09:08:15,Transfer,114.62,Dubai,0,Low,
+362,15,2024-01-02 13:28:44,Withdrawal,114.02,Toronto,0,Low,
+6,1,2025-08-05 21:07:44,Transfer,113.09,Dubai,0,Low,
+660,27,2024-05-05 09:12:38,Withdrawal,112.78,Karachi,0,Low,
+148,7,2025-11-22 06:21:05,Withdrawal,112.62,Toronto,0,Low,
+428,18,2023-12-08 06:34:04,Transfer,112.24,Singapore,0,Low,
+72,4,2025-12-27 12:27:49,Deposit,111.52,London,0,Low,
+241,10,2023-07-06 23:22:10,Transfer,111.10,Lahore,0,Low,
+46,2,2023-05-13 20:01:29,Transfer,110.72,Islamabad,0,Low,
+320,14,2025-05-01 19:46:22,Transfer,109.72,New York,0,Low,
+29,2,2025-10-20 21:43:35,Purchase,109.53,Toronto,0,Low,
+547,23,2023-09-06 20:39:09,Transfer,109.38,Karachi,0,Low,
+141,7,2026-04-07 14:35:34,Purchase,109.20,New York,0,Low,
+512,22,2023-11-02 16:29:32,Transfer,108.59,New York,0,Low,
+118,6,2023-01-25 00:36:32,Withdrawal,108.24,Toronto,0,Low,
+586,24,2025-09-22 18:15:26,Deposit,107.70,London,0,Low,
+687,29,2026-04-10 00:09:00,Purchase,107.57,Singapore,0,Low,
+537,23,2025-04-22 03:33:25,Purchase,107.43,Dubai,0,Low,
+119,6,2023-08-08 03:30:24,Deposit,107.26,London,0,Low,
+617,25,2025-06-24 21:45:35,Withdrawal,107.01,Karachi,0,Low,
+146,7,2025-07-21 07:31:54,Purchase,106.62,New York,0,Low,
+410,17,2025-08-01 03:25:15,Withdrawal,106.62,New York,0,Low,
+375,16,2025-04-24 12:51:21,Transfer,105.72,Toronto,0,Low,
+347,14,2025-02-09 08:06:55,Withdrawal,105.69,Lahore,0,Low,
+696,29,2023-07-10 01:28:20,Deposit,105.10,Islamabad,0,Low,
+367,15,2023-03-10 21:49:39,Purchase,104.56,Dubai,0,Low,
+528,23,2023-06-18 04:37:02,Transfer,103.59,London,0,Low,
+256,11,2025-01-24 16:54:06,Deposit,103.50,Singapore,0,Low,
+678,28,2024-06-17 06:11:04,Withdrawal,103.23,Toronto,0,Low,
+372,16,2026-02-18 02:38:07,Deposit,103.12,London,0,Low,
+483,20,2025-11-30 23:00:18,Purchase,102.06,Dubai,0,Low,
+461,20,2024-01-12 14:06:25,Transfer,100.83,Lahore,0,Low,
+137,7,2024-08-19 23:02:35,Transfer,100.75,Toronto,0,Low,
+273,12,2026-03-26 05:46:06,Deposit,100.47,Toronto,0,Low,
+712,30,2025-09-25 14:33:06,Withdrawal,99.79,Singapore,0,Low,
+74,4,2025-09-28 11:32:35,Deposit,98.56,Karachi,0,Low,
+218,9,2025-02-22 13:04:29,Transfer,98.54,Toronto,0,Low,
+577,24,2025-12-23 14:21:24,Purchase,98.46,Karachi,0,Low,
+217,9,2025-04-23 20:02:59,Purchase,98.41,Dubai,0,Low,
+667,28,2024-10-16 16:26:17,Transfer,98.28,New York,0,Low,
+244,10,2026-03-18 08:34:46,Purchase,97.87,Islamabad,0,Low,
+446,18,2024-09-16 16:23:10,Deposit,96.88,London,0,Low,
+501,22,2023-09-24 01:03:20,Withdrawal,96.79,Toronto,0,Low,
+484,20,2023-08-31 00:52:23,Deposit,95.65,Toronto,0,Low,
+580,24,2025-01-28 22:49:17,Purchase,95.54,New York,0,Low,
+269,12,2026-04-14 10:42:21,Deposit,95.43,Karachi,0,Low,
+144,7,2025-02-05 14:14:26,Purchase,95.30,Singapore,0,Low,
+507,22,2024-09-10 19:23:48,Deposit,94.89,Singapore,0,Low,
+495,21,2024-02-25 01:19:51,Purchase,94.58,Lahore,0,Low,
+261,11,2025-02-10 12:41:46,Purchase,94.50,Toronto,0,Low,
+151,7,2024-10-29 07:10:30,Deposit,94.22,New York,0,Low,
+525,23,2023-01-23 17:04:15,Transfer,93.54,London,0,Low,
+505,22,2024-11-07 11:49:27,Transfer,93.39,Islamabad,0,Low,
+5,1,2024-09-27 16:48:41,Deposit,93.12,Karachi,0,Low,
+418,17,2025-12-23 05:38:39,Withdrawal,92.63,Toronto,0,Low,
+352,14,2023-06-25 07:53:09,Withdrawal,92.59,Toronto,0,Low,
+39,2,2025-06-28 12:47:57,Purchase,92.19,London,0,Low,
+363,15,2023-09-01 08:21:56,Purchase,92.09,New York,0,Low,
+599,24,2026-06-18 08:01:23,Transfer,91.96,Dubai,0,Low,
+130,6,2023-01-11 11:13:25,Deposit,91.72,Singapore,0,Low,
+590,24,2024-12-11 15:17:47,Transfer,91.55,Dubai,0,Low,
+685,29,2025-10-10 01:29:06,Purchase,91.10,Islamabad,0,Low,
+70,4,2024-01-26 00:41:22,Purchase,91.00,Singapore,0,Low,
+161,7,2024-12-14 03:10:01,Deposit,90.62,New York,0,Low,
+715,30,2025-08-19 12:31:08,Withdrawal,90.43,Singapore,0,Low,
+402,17,2025-04-23 20:24:32,Withdrawal,90.24,Toronto,0,Low,
+640,26,2025-02-18 03:32:39,Withdrawal,88.49,Dubai,0,Low,
+519,22,2025-07-19 18:32:50,Deposit,87.70,Lahore,0,Low,
+386,16,2023-01-20 06:25:48,Deposit,87.20,New York,0,Low,
+22,2,2025-10-26 19:12:15,Purchase,86.64,London,0,Low,
+576,24,2026-03-20 00:11:05,Deposit,86.47,Lahore,0,Low,
+280,12,2023-04-09 04:12:56,Purchase,86.27,Dubai,0,Low,
+427,18,2026-02-17 20:19:16,Purchase,85.96,Toronto,0,Low,
+243,10,2024-12-05 19:42:48,Deposit,85.73,Toronto,0,Low,
+404,17,2025-12-25 09:47:15,Deposit,85.52,Singapore,0,Low,
+271,12,2024-02-15 12:28:34,Purchase,84.79,Islamabad,0,Low,
+673,28,2025-05-06 06:34:01,Withdrawal,84.66,Singapore,0,Low,
+40,2,2023-06-03 23:12:40,Deposit,84.21,Islamabad,0,Low,
+250,10,2023-12-19 10:01:39,Withdrawal,83.58,New York,0,Low,
+434,18,2023-07-08 20:46:14,Withdrawal,82.96,Singapore,0,Low,
+380,16,2025-11-12 10:12:15,Purchase,82.59,Singapore,0,Low,
+247,10,2025-03-05 20:15:23,Deposit,82.48,Lahore,0,Low,
+588,24,2023-06-28 02:55:08,Purchase,81.18,London,0,Low,
+9,1,2025-02-02 10:17:59,Purchase,80.55,New York,0,Low,
+636,26,2025-05-31 04:20:15,Transfer,79.81,Islamabad,0,Low,
+274,12,2025-05-28 17:22:53,Withdrawal,79.75,New York,0,Low,
+437,18,2026-07-22 23:01:02,Withdrawal,79.58,New York,0,Low,
+330,14,2024-07-30 15:56:07,Deposit,79.38,Islamabad,0,Low,
+677,28,2025-10-30 22:33:39,Withdrawal,79.28,Lahore,0,Low,
+129,6,2024-07-02 05:36:54,Purchase,79.10,Karachi,0,Low,
+121,6,2023-07-11 14:45:20,Deposit,78.96,Karachi,0,Low,
+42,2,2025-07-10 13:30:23,Transfer,77.54,New York,0,Low,
+67,4,2025-08-30 00:36:20,Deposit,76.83,Lahore,0,Low,
+89,5,2026-08-01 10:44:31,Deposit,76.67,New York,0,Low,
+384,16,2025-05-08 13:33:19,Purchase,76.19,Dubai,0,Low,
+337,14,2026-03-04 20:38:19,Deposit,76.08,Dubai,0,Low,
+134,6,2025-09-18 02:48:02,Deposit,75.42,Dubai,0,Low,
+460,20,2024-04-17 00:56:58,Transfer,75.06,Singapore,0,Low,
+694,29,2026-05-20 04:46:48,Deposit,75.01,Toronto,0,Low,
+319,14,2026-03-18 20:01:50,Withdrawal,74.83,Karachi,0,Low,
+433,18,2023-03-19 16:45:41,Transfer,74.35,London,0,Low,
+221,9,2026-03-25 14:08:31,Transfer,74.19,New York,0,Low,
+614,25,2025-12-30 21:07:07,Deposit,73.57,Singapore,0,Low,
+485,20,2023-04-04 12:09:10,Transfer,73.18,London,0,Low,
+392,16,2023-06-12 05:53:53,Transfer,72.01,Toronto,0,Low,
+591,24,2025-04-23 21:04:11,Deposit,71.84,Singapore,0,Low,
+236,10,2026-01-25 03:23:23,Deposit,70.90,Islamabad,0,Low,
+557,23,2026-04-29 06:18:54,Withdrawal,70.42,New York,0,Low,
+78,4,2023-07-25 15:02:52,Deposit,69.41,Islamabad,0,Low,
+113,6,2023-11-09 07:08:35,Transfer,69.32,New York,0,Low,
+455,19,2024-10-01 22:02:26,Withdrawal,69.21,Dubai,0,Low,
+569,24,2026-04-28 21:06:30,Transfer,68.56,Karachi,0,Low,
+110,6,2024-05-05 20:06:02,Transfer,67.71,London,0,Low,
+38,2,2026-01-22 10:41:44,Withdrawal,67.64,Toronto,0,Low,
+235,10,2024-08-26 00:43:51,Purchase,67.15,Islamabad,0,Low,
+379,16,2025-01-30 22:35:52,Withdrawal,66.51,Singapore,0,Low,
+407,17,2024-12-01 15:18:02,Transfer,65.76,Lahore,0,Low,
+602,25,2024-12-07 12:47:32,Deposit,65.08,Singapore,0,Low,
+473,20,2023-04-16 15:16:35,Withdrawal,65.07,Karachi,0,Low,
+311,13,2023-05-08 10:44:44,Purchase,64.54,Dubai,0,Low,
+604,25,2023-10-22 07:33:54,Purchase,64.13,Toronto,0,Low,
+252,11,2024-04-11 04:53:34,Purchase,63.59,Toronto,0,Low,
+486,20,2023-05-19 11:12:20,Deposit,63.56,New York,0,Low,
+324,14,2025-09-23 01:35:47,Purchase,62.80,Islamabad,0,Low,
+283,12,2025-01-03 14:55:07,Transfer,62.59,Singapore,0,Low,
+239,10,2025-05-25 03:11:25,Withdrawal,62.44,Dubai,0,Low,
+267,12,2026-02-17 06:35:41,Transfer,62.29,Islamabad,0,Low,
+480,20,2026-02-01 02:21:49,Withdrawal,62.10,Toronto,0,Low,
+627,26,2026-02-08 14:49:43,Transfer,61.66,Singapore,0,Low,
+606,25,2024-01-16 13:53:59,Deposit,61.45,London,0,Low,
+693,29,2025-03-06 14:39:02,Transfer,60.56,Toronto,0,Low,
+688,29,2024-11-04 00:56:42,Transfer,60.43,Karachi,0,Low,
+448,18,2023-12-15 02:11:18,Purchase,60.38,Lahore,0,Low,
+691,29,2023-04-10 23:26:03,Purchase,60.18,Toronto,0,Low,
+717,30,2026-06-27 07:32:39,Deposit,60.08,Islamabad,0,Low,
+490,21,2023-05-16 05:26:09,Deposit,59.69,Islamabad,0,Low,
+216,9,2024-01-19 10:00:42,Deposit,59.57,London,0,Low,
+563,23,2026-07-06 07:34:37,Deposit,58.90,Singapore,0,Low,
+103,5,2025-04-26 10:56:27,Deposit,58.66,Toronto,0,Low,
+631,26,2026-04-06 21:36:50,Deposit,58.23,Toronto,0,Low,
+653,27,2024-02-18 05:48:07,Purchase,58.18,Islamabad,0,Low,
+520,22,2024-04-29 18:16:02,Transfer,57.50,Singapore,0,Low,
+133,6,2023-12-14 05:03:18,Transfer,57.44,Toronto,0,Low,
+535,23,2024-11-17 09:50:32,Withdrawal,57.08,Dubai,0,Low,
+545,23,2023-03-19 14:13:01,Deposit,56.96,Singapore,0,Low,
+353,15,2026-06-30 18:35:52,Withdrawal,56.58,Karachi,0,Low,
+242,10,2025-06-19 16:55:56,Purchase,56.36,Karachi,0,Low,
+533,23,2025-03-09 17:16:45,Deposit,56.21,Singapore,0,Low,
+341,14,2023-03-17 20:04:58,Deposit,55.82,New York,0,Low,
+374,16,2025-09-14 04:13:59,Transfer,55.27,Dubai,0,Low,
+323,14,2023-08-21 14:02:57,Deposit,55.04,New York,0,Low,
+76,4,2025-06-24 23:52:59,Withdrawal,55.01,London,0,Low,
+648,26,2025-04-28 14:38:50,Withdrawal,54.00,Lahore,0,Low,
+30,2,2026-06-13 12:50:44,Purchase,51.91,Karachi,0,Low,
+322,14,2024-12-09 16:13:34,Deposit,51.87,New York,0,Low,
+656,27,2025-10-13 03:17:09,Withdrawal,51.42,Toronto,0,Low,
+531,23,2025-04-25 13:57:02,Purchase,51.40,New York,0,Low,
+383,16,2026-01-28 09:34:12,Withdrawal,51.24,Toronto,0,Low,
+515,22,2024-07-31 01:08:07,Deposit,50.87,Toronto,0,Low,
+377,16,2025-10-18 07:16:10,Transfer,50.80,Dubai,0,Low,
+348,14,2025-06-19 06:01:46,Purchase,49.85,New York,0,Low,
+399,17,2025-09-13 19:38:55,Purchase,49.29,London,0,Low,
+607,25,2026-02-19 16:52:25,Purchase,48.78,Singapore,0,Low,
+365,15,2023-05-12 09:34:43,Purchase,48.25,London,0,Low,
+344,14,2025-01-04 01:28:17,Transfer,47.67,Dubai,0,Low,
+430,18,2026-02-27 19:51:56,Deposit,46.72,Singapore,0,Low,
+649,26,2026-03-27 18:10:31,Purchase,46.53,Toronto,0,Low,
+333,14,2024-03-06 12:31:09,Transfer,46.29,Dubai,0,Low,
+516,22,2025-06-10 19:50:49,Deposit,46.19,New York,0,Low,
+704,30,2024-11-30 06:48:55,Deposit,46.16,Karachi,0,Low,
+325,14,2026-07-07 02:23:01,Withdrawal,46.10,Karachi,0,Low,
+71,4,2023-10-10 18:53:04,Deposit,45.43,Islamabad,0,Low,
+560,23,2025-09-01 04:37:12,Withdrawal,45.20,Lahore,0,Low,
+150,7,2023-01-10 07:49:13,Transfer,45.13,Islamabad,0,Low,
+360,15,2025-02-07 23:49:52,Transfer,45.06,London,0,Low,
+686,29,2024-12-16 03:24:25,Withdrawal,44.73,London,0,Low,
+630,26,2024-02-12 12:19:45,Transfer,44.05,Singapore,0,Low,
+550,23,2023-10-14 01:17:59,Deposit,42.65,London,0,Low,
+417,17,2026-01-16 17:50:37,Purchase,42.01,Islamabad,0,Low,
+99,5,2023-11-14 10:02:09,Purchase,41.75,Toronto,0,Low,
+302,13,2026-06-05 07:07:59,Transfer,41.57,Dubai,0,Low,
+86,5,2025-03-31 03:28:22,Withdrawal,41.03,Toronto,0,Low,
+105,5,2024-09-06 13:42:23,Deposit,40.86,Islamabad,0,Low,
+468,20,2025-10-22 04:07:13,Transfer,40.06,Toronto,0,Low,
+608,25,2024-08-12 15:11:17,Deposit,39.98,London,0,Low,
+469,20,2025-07-12 00:54:25,Transfer,39.88,Karachi,0,Low,
+692,29,2025-03-27 09:17:24,Withdrawal,39.71,Dubai,0,Low,
+316,14,2024-08-25 16:20:27,Deposit,39.60,Karachi,0,Low,
+583,24,2025-01-18 13:20:29,Transfer,39.18,Islamabad,0,Low,
+8,1,2025-10-30 23:31:29,Transfer,38.65,Islamabad,0,Low,
+623,25,2024-01-28 10:15:43,Deposit,38.50,Dubai,0,Low,
+157,7,2025-06-28 17:47:34,Withdrawal,37.61,London,0,Low,
+603,25,2025-06-25 10:30:31,Purchase,36.94,Islamabad,0,Low,
+84,5,2023-08-19 12:02:23,Transfer,36.69,New York,0,Low,
+594,24,2023-12-26 05:35:17,Transfer,36.44,London,0,Low,
+14,1,2024-04-08 05:00:30,Transfer,35.21,Lahore,0,Low,
+415,17,2024-12-29 23:28:05,Deposit,35.01,New York,0,Low,
+589,24,2023-10-31 18:04:14,Deposit,34.35,Islamabad,0,Low,
+632,26,2025-11-13 10:09:14,Purchase,33.74,Islamabad,0,Low,
+571,24,2023-04-22 15:52:09,Withdrawal,33.26,Singapore,0,Low,
+657,27,2025-05-16 07:56:14,Deposit,33.13,Lahore,0,Low,
+332,14,2026-02-07 20:12:34,Transfer,32.57,Karachi,0,Low,
+155,7,2025-09-29 10:30:58,Deposit,32.36,Lahore,0,Low,
+707,30,2023-06-29 04:33:15,Withdrawal,31.35,Lahore,0,Low,
+304,13,2026-04-21 18:21:26,Deposit,31.25,Toronto,0,Low,
+338,14,2024-07-20 13:05:18,Deposit,31.19,London,0,Low,
+106,6,2026-02-15 19:17:47,Transfer,31.15,Singapore,0,Low,
+578,24,2025-04-12 07:56:14,Withdrawal,30.88,London,0,Low,
+592,24,2024-09-14 20:39:10,Transfer,30.73,New York,0,Low,
+93,5,2023-04-24 16:30:32,Purchase,30.73,London,0,Low,
+503,22,2025-08-11 20:40:21,Deposit,30.70,London,0,Low,
+539,23,2023-06-26 22:00:57,Withdrawal,30.33,Karachi,0,Low,
+48,2,2025-08-15 20:05:05,Deposit,30.31,Singapore,0,Low,
+406,17,2024-07-31 09:48:03,Withdrawal,29.38,Singapore,0,Low,
+389,16,2023-02-10 14:59:30,Transfer,28.64,Islamabad,0,Low,
+720,30,2026-06-18 08:15:12,Transfer,28.53,Lahore,0,Low,
+378,16,2023-11-16 03:53:03,Deposit,28.38,Lahore,0,Low,
+270,12,2024-02-03 18:13:18,Withdrawal,28.36,Islamabad,0,Low,
+153,7,2023-10-02 11:24:09,Deposit,27.98,Toronto,0,Low,
+282,12,2025-11-13 22:29:22,Withdrawal,27.96,London,0,Low,
+616,25,2025-08-01 02:46:53,Withdrawal,27.73,New York,0,Low,
+626,26,2024-11-02 17:58:31,Withdrawal,27.57,Singapore,0,Low,
+584,24,2024-05-03 19:38:50,Withdrawal,27.14,Dubai,0,Low,
+625,26,2023-09-11 16:57:46,Purchase,26.51,Lahore,0,Low,
+310,13,2023-01-27 19:01:55,Transfer,25.76,Islamabad,0,Low,
+711,30,2024-11-14 00:17:12,Purchase,25.02,London,0,Low,
+615,25,2024-11-27 05:56:08,Deposit,24.97,Karachi,0,Low,
+237,10,2023-11-18 01:56:59,Transfer,24.75,London,0,Low,
+426,18,2025-11-29 03:32:09,Withdrawal,24.74,Dubai,0,Low,
+358,15,2026-04-21 20:58:33,Transfer,24.05,Karachi,0,Low,
+388,16,2025-09-02 22:55:57,Transfer,23.78,London,0,Low,
+238,10,2024-09-01 08:38:55,Purchase,23.70,New York,0,Low,
+210,9,2024-11-02 05:24:01,Transfer,22.79,London,0,Low,
+641,26,2024-10-01 21:34:24,Transfer,21.56,Lahore,0,Low,
+518,22,2025-06-13 04:56:36,Withdrawal,21.51,Toronto,0,Low,
+213,9,2026-07-14 23:28:20,Deposit,21.39,Dubai,0,Low,
+703,30,2025-03-15 01:38:52,Transfer,21.24,Singapore,0,Low,
+689,29,2023-11-11 01:03:04,Transfer,20.81,Lahore,0,Low,
+559,23,2023-02-02 17:43:47,Deposit,20.74,London,0,Low,
+548,23,2025-12-30 12:22:52,Deposit,20.69,Lahore,0,Low,
+296,13,2025-04-05 08:33:21,Transfer,20.37,Singapore,0,Low,
+91,5,2025-12-17 13:10:19,Withdrawal,20.23,Dubai,0,Low,
+49,2,2025-04-18 20:55:53,Withdrawal,19.38,New York,0,Low,
+544,23,2023-03-13 02:39:17,Purchase,18.73,Islamabad,0,Low,
+542,23,2023-12-31 16:02:27,Purchase,18.53,Singapore,0,Low,
+4,1,2023-11-06 16:00:40,Purchase,18.32,New York,0,Low,
+100,5,2024-05-07 07:30:11,Withdrawal,18.12,Lahore,0,Low,
+41,2,2023-03-13 04:35:45,Withdrawal,18.11,Lahore,0,Low,
+664,28,2024-06-18 18:26:06,Purchase,17.94,Singapore,0,Low,
+514,22,2023-09-19 10:42:39,Purchase,17.17,New York,0,Low,
+481,20,2024-03-04 22:17:03,Transfer,16.35,Singapore,0,Low,
+408,17,2023-06-14 05:19:08,Deposit,15.93,London,0,Low,
+654,27,2025-09-22 00:43:29,Transfer,15.79,Toronto,0,Low,
+684,29,2024-01-22 05:24:40,Purchase,15.64,Toronto,0,Low,
+327,14,2023-06-29 02:40:00,Deposit,15.58,London,0,Low,
+532,23,2024-06-25 04:13:23,Deposit,15.24,Dubai,0,Low,
+258,11,2023-02-26 14:04:27,Withdrawal,14.68,Dubai,0,Low,
+303,13,2023-08-09 15:05:25,Deposit,14.07,Singapore,0,Low,
+292,13,2025-04-22 16:02:41,Transfer,13.96,Dubai,0,Low,
+112,6,2024-10-02 15:04:14,Transfer,13.91,Toronto,0,Low,
+31,2,2025-03-10 17:07:01,Transfer,13.49,Karachi,0,Low,
+620,25,2023-09-01 09:12:42,Withdrawal,13.44,Dubai,0,Low,
+350,14,2023-02-15 08:52:18,Purchase,13.41,Islamabad,0,Low,
+223,9,2023-12-26 17:51:22,Transfer,12.40,Lahore,0,Low,
+621,25,2024-01-14 12:47:56,Transfer,10.71,New York,0,Low,
+639,26,2024-10-18 02:14:10,Transfer,10.49,Lahore,0,Low,
+652,27,2023-11-04 06:59:14,Purchase,10.40,Toronto,0,Low,
+459,20,2023-09-27 06:43:35,Withdrawal,10.11,Dubai,0,Low,
+713,30,2023-05-05 19:14:06,Deposit,8.71,Toronto,0,Low,
+13,1,2025-11-07 13:10:25,Withdrawal,8.55,Singapore,0,Low,
+284,12,2024-04-25 00:05:58,Purchase,7.49,Islamabad,0,Low,
+212,9,2023-10-14 04:25:19,Transfer,7.33,Toronto,0,Low,
+143,7,2025-05-31 03:51:26,Deposit,7.06,Dubai,0,Low,
+413,17,2025-03-21 08:51:02,Transfer,6.74,Islamabad,0,Low,
+705,30,2025-12-30 00:39:08,Deposit,6.14,Toronto,0,Low,

@@ -1,0 +1,5 @@
+risk_level,txns,pct_of_all,total_value
+Critical,25,3.4,83781.83
+High,19,2.6,112137.01
+Medium,83,11.4,193044.33
+Low,599,82.5,191608.42
